@@ -58,6 +58,10 @@ All notable changes to this project are documented here.
   it, and a choice of every monitor or only the main one.
 - `--demo` and a tray item to put a made-up notice up, because the alternative way to find out
   what this looks like is to break a build.
+- One copy per session. A second launch - the one somebody started by hand beside the one
+  Windows started - leaves quietly, rather than putting up a second notice for the same
+  breakage that fights the first for the top of the screen and looks like the taunts
+  flickering.
 - Sound off by default. In an open-plan office a noise is a much bigger act than a picture,
   and it should be somebody's decision rather than something they discover at 9:40 on a
   Monday.
